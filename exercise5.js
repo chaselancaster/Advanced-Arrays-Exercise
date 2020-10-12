@@ -29,6 +29,9 @@ const array = [
 
 //Create an array using forEach that has all the usernames with a "!" to each of the usernames
 
+const newArray = []
+array.forEach(user => newArray.push(user.username + "!"))
+
 
 //Create an array using map that has all the usernames with a "? to each of the usernames
 
