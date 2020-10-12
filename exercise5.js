@@ -59,3 +59,9 @@ const newArray = arrayNum.map((num, i) => {
 })
 
 //BONUS: create a new list with all user information, but add "!" to the end of each items they own.
+const userInfo = array.map(user => {
+  user.items = user.items.map(item => {
+    return item + "!"
+  })
+  return user
+})
