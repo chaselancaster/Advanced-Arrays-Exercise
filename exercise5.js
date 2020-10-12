@@ -49,6 +49,9 @@ const reduceArray = array.reduce((acc, user) => {
 }, 0)
 
 // (1), what is the value of i?
+
+// Answer: index of the array
+
 // (2), Make this map function pure:
 const arrayNum = [1, 2, 4, 5, 8, 9];
 const newArray = arrayNum.map((num, i) => {
